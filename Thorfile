@@ -1,8 +1,10 @@
-require 'thor'
+require 'thor/group'
 
 module Middleman
   class Generator < ::Thor::Group
     include ::Thor::Actions
+
+    namespace :middleman
 
     source_root File.expand_path(File.dirname(__FILE__))
 
