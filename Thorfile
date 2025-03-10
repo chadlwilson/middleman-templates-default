@@ -1,4 +1,4 @@
-require 'thor/group'
+require 'thor'
 
 module Middleman
   class Generator < ::Thor::Group
